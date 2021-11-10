@@ -5,13 +5,19 @@ import {Link} from 'react-router-dom'
 function Navbar() {
     return (
       <div>
-        <ul>
-            <li><Link to="/home">Home</Link></li>
-            <li><Link to="/books">Books</Link></li>
-            <li><Link to="/wheather">Wheather</Link></li>
-        </ul>
+        <div className="navbar">
+          <div className="container">
+            <ul>
+              <Link to="/home">Home</Link>
+              <Link to="/books">Books</Link>
+              <Link to="/wheather">Wheather</Link>
+            </ul>
+          </div>
+        </div>
       </div>
     );
   }
-  
-  export default Navbar;
+      
+export default Navbar;
+          
+        
