@@ -11,6 +11,7 @@ function Navbar() {
               <Link to="/home">Home</Link>
               <Link to="/books">Books</Link>
               <Link to="/wheather">Wheather</Link>
+              <Link to="/movies">Movies</Link>
             </ul>
           </div>
         </div>
