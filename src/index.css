@@ -16,6 +16,7 @@ code {
   overflow: hidden;
   background: rgb(44, 46, 44);
   color: #fff;
+  width: 100%;
 }
 .container{
   width: 80%;
