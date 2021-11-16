@@ -37,4 +37,16 @@
   }
 }
 
+.row{
+  overflow: auto;
+  flex-wrap: nowrap;
+}
+.image-container {
+  position: relative;
+  transition: transform 0.2;
+}
+.image-container:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
 

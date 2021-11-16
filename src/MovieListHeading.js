@@ -1,3 +1,4 @@
+//code used from https://www.freecodecamp.org/news/react-movie-app-tutorial/
 import React from "react";
 
 const MovieListHeading = (props) => {

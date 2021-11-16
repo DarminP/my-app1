@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
@@ -13,7 +14,7 @@ code {
 }
 .navbar {
   overflow: hidden;
-  background: #080;
+  background: rgb(44, 46, 44);
   color: #fff;
 }
 .container{
@@ -62,5 +63,25 @@ tr:nth-child(even) {
 }
 .header{
   text-align: center;
+}
+
+/* this is style for weather component*/
+
+.min-info{
+  width: 100%;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+.min-info-key{
+  color: #fff;
+  border-bottom: solid 2px rgba(255,255,255,0,06);
+}
+
+button{
+  background-color: rgb(32, 31, 31);
+  color: #f2f2f2;
+  padding: 4px 20px;
+  border-radius: 8px !important;
 }
 

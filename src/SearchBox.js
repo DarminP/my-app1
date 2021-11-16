@@ -1,5 +1,8 @@
+//code used from https://www.freecodecamp.org/news/react-movie-app-tutorial/
 import React from "react";
 
+//Takes a value from props, and when the user types...
+//calls a function which updates the value. This is also taken from props.
 const SearchBox = (props) => {
     return(
         <div className='col col-sm-4'>

@@ -1,3 +1,4 @@
+//code used from Abdulghafour Mohammad lectures in course Fullstact Developer at University West!
 import React from 'react';
 import axios from 'axios';
 class Wheather extends React.Component
@@ -30,17 +31,20 @@ class Wheather extends React.Component
     {
         return(
             <div>
-                <h1>Wheather</h1>
+                <h1 className="min-header">Wheather</h1>
                 <form onSubmit={this.getWheather}>
                     <input type="text" name="city" placeholder="city"/>
                     <input type="text" name="country" placeholder="country"/>
                     <button type="submit">Get Wheather</button>
                 </form>
-                <p>{this.state.temperature}</p>
-                <p>{this.state.city}</p>
-                <p>{this.state.country}</p>
-                <p>{this.state.humidity}</p>
-                <p>{this.state.description}</p>
+                <div className="min-info">
+                    <p>{this.state.temperature}</p>
+                    <p>{this.state.city}</p>
+                    <p>{this.state.country}</p>
+                    <p>{this.state.humidity}</p>
+                    <p>{this.state.description}</p>
+                </div>
+               
             </div>
         )
     }
