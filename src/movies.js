@@ -18,7 +18,7 @@ const Movies = () => {
     const getMovieRequest = async (searchValue) => {
 
         //We're passing this value to the request using a template string
-        const url = `http://www.omdbapi.com/?s=${searchValue}&apikey=1d63e556`; 
+        const url = ´http://www.omdbapi.com/?s=${searchValue}&apikey=1d63e556´; 
 
         const response = await fetch(url);
         const responseJson = await response.json();
